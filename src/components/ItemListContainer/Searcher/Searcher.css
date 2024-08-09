@@ -1,0 +1,6 @@
+.search-container {
+    margin-block: 20px;
+    display: flex;
+    justify-content: center;
+    gap : 40px;
+}

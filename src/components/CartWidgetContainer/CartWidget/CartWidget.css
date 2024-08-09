@@ -1,0 +1,8 @@
+.cart-widget-container{
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 85px;
+    margin-bottom: 45px;
+    text-align: center;
+  }

@@ -1,0 +1,43 @@
+
+.hero {
+    background-color: #fff;
+    color: #333;
+    padding: 40px 0;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 30px;
+}
+
+.hero .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.hero-content {
+    display: flex;
+    align-items: center;
+}
+
+.hero-text {
+    max-width: 600px;
+    margin-right: 20px;
+}
+
+.hero-text h2 {
+    color: orange;
+    margin-bottom: 10px;
+}
+
+.hero-text p {
+    margin: 10px 0;
+}
+
+
+.hero-image img {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+}

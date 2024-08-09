@@ -1,0 +1,36 @@
+
+
+.table-container {
+    width: 80%;
+    margin: 0 auto;
+    overflow-x: auto; /* Opcional: permite el desplazamiento horizontal si el contenido es muy ancho */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: auto; 
+    margin-bottom: 20px; 
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left; 
+}
+
+th {
+    background-color: #fcca84; 
+}
+
+td {
+    text-align: right; 
+}
+
+tr:nth-child(even) {
+    background-color: #fcca84; /* Color de fondo alternante para las filas */
+}
+
+tr:hover {
+    background-color: #fb9301; /* Color de fondo cuando se pasa el ratón sobre una fila */
+}
